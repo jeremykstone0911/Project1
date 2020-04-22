@@ -46,8 +46,7 @@
     <div class="parallax-container valign-wrapper">
       <div class="section no-pad-bot">
         <div class="container">
-          <div class="row center">
-          </div>
+          <div class="row center"></div>
         </div>
       </div>
       <div class="parallax">
@@ -65,7 +64,7 @@
           <h1 class="header center black-text text-lighten-2">
             Pick Your Date
           </h1>
-          <div class="row center">
+          <div class="row center-align">
             <h5 class="header col s12 black-text">
               Music lover? Good! Wanna feel bad about all the music you missed?
               Enter a date to see concerts and events from all over the U.S.
@@ -73,76 +72,73 @@
             </h5>
           </div>
 
-        </div>
-  
-      <div class="container">
-        <div class="section">
-          <div class="row">
-            <form class="col s12">
-              <div class="input center col s4">
-                <input type="text" class="datepicker"></input>
-              </div>
-            </form>
-              <a
-                href="http://materializecss.com/getting-started.html"
-                id="download-button"
-                class="btn-small waves-effect waves-light #212121 grey darken-4 lighten-1"
-                >Search</a>
+          <div class="section">
+            <div class="row">
+              <form class="col s12">
+                <div class="input-field">
+                  <input placeholder="Click to Select Date" id="date" type="text" class="validate datepicker">
+                  <label for="date">Date</label>
+              </form>
+            </div>
           </div>
+
+            <br /><br />
+            <a
+              href="http://materializecss.com/getting-started.html"
+              id="download-button"
+              class="btn-small waves-effect waves-light #212121 grey darken-4 lighten-1"
+              >Search</a
+            >
+          
         </div>
       </div>
-      <br /><br />
-    </div>
-    <div class="container">
-      <div class="section">
-        <!--   Icon Section   -->
-        <div class="row">
-          <div class="col s12 m6">
-            <div class="icon-block">
-              <h2 class="center brown-text">
-                <i class="material-icons">music_note</i>
-              </h2>
+
+      <div class="container">
+        <div class="section">
+          <!--   Icon Section   -->
+          <div class="row">
+            <div class="col s12">
               <h5 class="center">*** List of Shows ***</h5>
               <ul class="collection">
                 <li class="collection-item avatar">
-                  <i class="material-icons circle">music_note</i>
-                  <span class="title">Artist</span>
+                  <img src="images/yuna.jpg" alt="" class="circle" />
+                  <span class="title">Title</span>
                   <p>
-                    Location <br />
-                    Venue
+                    First Line <br />
+                    Second Line
                   </p>
                   <a href="#!" class="secondary-content"
                     ><i class="material-icons">grade</i></a
                   >
                 </li>
                 <li class="collection-item avatar">
-                  <i class="material-icons circle">music_note</i>
-                  <span class="title">Artist</span>
+                  <i class="material-icons circle">folder</i>
+                  <span class="title">Title</span>
                   <p>
-                    Location <br />
-                    Venue
+                    First Line <br />
+                    Second Line
                   </p>
                   <a href="#!" class="secondary-content"
                     ><i class="material-icons">grade</i></a
                   >
                 </li>
                 <li class="collection-item avatar">
-                  <i class="material-icons circle green">music_note</i>
-                  <span class="title">Artist</span>
+                  <i class="material-icons circle green">insert_chart</i>
+                  <span class="title">Title</span>
                   <p>
-                    Location <br />
-                    Venue
+                    First Line <br />
+                    Second Line
                   </p>
                   <a href="#!" class="secondary-content"
                     ><i class="material-icons">grade</i></a
                   >
                 </li>
                 <li class="collection-item avatar">
-                  <i class="material-icons circle red">music_note</i>
-                  <span class="title">Artist</span>
+                  <i class="material-icons circle red">play_arrow</i>
+                  <span class="title">Title</span>
                   <p>
-                    Location <br />
-                    Venue
+                    First Line <br />
+                    Second Line
                   </p>
                   <a href="#!" class="secondary-content"
                     ><i class="material-icons">grade</i></a
@@ -262,5 +258,9 @@
     <script src="assets/js/init.js"></script>
     <script src="assets/js/materialize.js"></script>
     <script src="assets/js/script.js"></script>
+    <script
+      type="text/javascript"
+      src="http://api.eventful.com/js/api"
+    ></script>
   </body>
 </html>
