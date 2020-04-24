@@ -12,7 +12,7 @@ nav .brand-logo {
 }
 
 p {
-  line-height: 2rem;
+  line-height: 5rem;
 }
 
 .sidenav-trigger {
@@ -23,7 +23,7 @@ p {
   min-height: 380px;
   line-height: 0;
   height: auto;
-  color: rgba(255, 255, 255, 0.9);
+  color: whitesmoke;
 }
 .parallax-container .section {
   width: 100%;
@@ -54,4 +54,21 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+.datepicker-date-display {
+  background: rgb(155, 99, 16);
+}
+.datepicker-calendar-container {
+  color: gray;
+}
+.is-today {
+  color: rgba(255, 166, 0, 0.055) !important;
+}
+.datepicker-table td.is-selected {
+  background: gray !important;
+}
+.datepicker-cancel,
+.datepicker-done {
+  color: silver;
 }

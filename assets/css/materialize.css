@@ -8937,7 +8937,7 @@ input[type="range"]::-ms-thumb {
   -webkit-flex: 1 auto;
   -ms-flex: 1 auto;
   flex: 1 auto;
-  background-color: #d7ccc8;
+  background-color: #ac7b47;
   color: black;
   padding: 20px 22px;
   font-weight: 500;
@@ -9011,7 +9011,7 @@ input[type="range"]::-ms-thumb {
 }
 
 .datepicker-day-button {
-  background-color: transparent;
+  background-color: gray;
   border: none;
   line-height: 38px;
   display: block;
