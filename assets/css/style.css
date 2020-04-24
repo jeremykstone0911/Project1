@@ -8,11 +8,13 @@
 
 nav ul a,
 nav .brand-logo {
-  color: whitesmoke;
+  color: rgb(241, 239, 214);
 }
 
 p {
-  line-height: 5rem;
+  line-height: 50px;
+  font-family: "ShadowsIntoLight";
+  font-size: 25px;
 }
 
 .sidenav-trigger {
@@ -57,13 +59,13 @@ footer.page-footer {
 }
 
 .datepicker-date-display {
-  background: rgb(155, 99, 16);
+  background: rgba(255, 127, 80, 0.023);
 }
 .datepicker-calendar-container {
   color: gray;
 }
 .is-today {
-  color: rgba(255, 166, 0, 0.055) !important;
+  color: rgba(255, 127, 80, 0.023) !important;
 }
 .datepicker-table td.is-selected {
   background: gray !important;
@@ -71,4 +73,19 @@ footer.page-footer {
 .datepicker-cancel,
 .datepicker-done {
   color: silver;
+}
+.pickYourDay {
+  line-height: 5rem;
+  font-family: "ShadowsIntoLight";
+  font-size: 26px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.fontSizeBig {
+  font-size: 40px;
+  color: rgb(165, 4, 4);
+  font-weight: bolder;
 }
