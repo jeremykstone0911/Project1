@@ -10369,7 +10369,7 @@ var $jscomp$this = this;
     autoClose: true,
 
     // the default output format for the input field value
-    format: "yyyymmdd00",
+    format: "mmm dd, yyyy",
 
     // Used to create date object from current input string
     parse: null,
