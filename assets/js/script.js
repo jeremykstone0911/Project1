@@ -2,11 +2,12 @@ $(document).ready(function () {
   $(".datepicker").datepicker();
 
   $("#search-button").on("click", function () {
-    var userDate = $("#date").val();
+    var userDate = $("#date").val()
 
     var formattedDate = moment(userDate).format("YYYY-MM-DD");
 
     console.log(formattedDate);
+
 
     $.ajax({
       url:
@@ -68,10 +69,3 @@ $(document).ready(function () {
     },
   });
 
-  WebFontConfig = {
-    google: {
-      families: ["shadowsIntoLight"],
-    },
-    timeout: 2000, // Set the timeout to two seconds
-  };
-});
