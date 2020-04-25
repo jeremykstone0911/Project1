@@ -8,11 +8,32 @@
 
 nav ul a,
 nav .brand-logo {
-  color: whitesmoke;
+  color: rgb(241, 239, 214);
 }
 
 p {
-  line-height: 2rem;
+  line-height: 50px;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 25px;
+}
+h4 {
+  font-size: 45px;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+h5 {
+  font-size: 40px;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.collection-item {
+  color: black
+}
+
+#social {
+  color: black;
+  font-weight: 600;
+  font-size: 40px;
 }
 
 .sidenav-trigger {
@@ -23,7 +44,7 @@ p {
   min-height: 380px;
   line-height: 0;
   height: auto;
-  color: rgba(255, 255, 255, 0.9);
+  color: whitesmoke;
 }
 .parallax-container .section {
   width: 100%;
@@ -54,4 +75,32 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+.datepicker-date-display {
+  background: rgba(255, 127, 80, 0.023);
+}
+.datepicker-calendar-container {
+  color: rgba(146, 103, 9, 0);
+}
+.is-today {
+  color: rgba(255, 127, 80, 0.023) !important;
+}
+.datepicker-table td.is-selected {
+  background: gray !important;
+}
+.datepicker-cancel,
+.datepicker-done {
+  color: rgb(47, 47, 65);
+}
+
+
+.bold {
+  font-weight: bold;
+}
+
+.fontSizeBig {
+  font-size: 40px;
+  color: rgb(165, 4, 4);
+  font-weight: bolder;
 }

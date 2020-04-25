@@ -6,10 +6,7 @@
     <title>All The Music You Missed</title>
 
     <!-- CSS  -->
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
+  
     <link
       href="assets/css/materialize.css"
       type="text/css"
@@ -22,7 +19,12 @@
       rel="stylesheet"
       media="screen,projection"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+
+
     <link href="./assets/css/style.css" rel="stylesheet" />
+
   </head>
   <body>
     <nav class="black" role="navigation">
@@ -30,10 +32,6 @@
         <a id="logo-container" href="#" class="brand-logo"
           >All The Music You Missed</a
         >
-        <ul class="right hide-on-med-and-down">
-          <li><a href="#">Navbar Link</a></li>
-        </ul>
-
         <ul id="nav-mobile" class="sidenav">
           <li><a href="#">Navbar Link</a></li>
         </ul>
@@ -61,22 +59,21 @@
       <div class="section no-pad-bot">
         <div class="container">
           <br /><br />
-          <h1 class="header center black-text text-lighten-2">
-            Pick Your Date
-          </h1>
           <div class="row center-align">
-            <h5 class="header col s12 black-text">
+            <p class="header col s12 black-text">
               Music lover? Good! Wanna feel bad about all the music you missed?
-              Enter a date to see concerts and events from all over the U.S.
-              that YOU MISSED!
-            </h5>
+              Enter a date below to see what shows from coast to coast that
+              <span class="fontSizeBig">YOU MISSED!</span>
+            </p>
           </div>
 
           <div class="section">
             <div class="row">
               <form class="col s12">
                 <div class="input-field">
-                  <input placeholder="Click to Select Date" id="user-date" type="text" class="validate datepicker">
+
+                  <input placeholder="Click to Select Date" id="date" type="text" class="validate datepicker black-text">
+
                   <label for="date">Date</label>
               </form>
             </div>
@@ -85,7 +82,8 @@
             <br /><br />
             <a
 
-              id="submit-button"
+              id="search-button"
+
               class="btn-small waves-effect waves-light #212121 grey darken-4 lighten-1"
               >Search</a
             >
@@ -98,45 +96,14 @@
           <!--   Icon Section   -->
           <div class="row">
             <div class="col s12">
-              <h5 class="center">*** List of Shows ***</h5>
-              <ul class="collection">
-                <li class="collection-item avatar">
-                  <img alt="" class="circle" />
-                  <span class="title-one"></span>
-                  <p id="location-one"></p>
-                  <p id="venue-one"></p>
-                  <a href="#!" class="secondary-content"
-                    ><i class="material-icons">grade</i></a
-                  >
-                </li>
-                <li class="collection-item avatar">
-                  <i class="material-icons circle">folder</i>
-                  <span class="title-two"></span>
-                  <p id="location-two"></p>
-                  <p id="venue-two"></p>
-                  <a href="#!" class="secondary-content"
-                    ><i class="material-icons">grade</i></a
-                  >
-                </li>
-                <li class="collection-item avatar">
-                  <i class="material-icons circle green">insert_chart</i>
-                  <span class="title-three"></span>
-                  <p id="location-three"></p>
-                  <p id="venue-three"></p>
-                  <a href="#!" class="secondary-content"
-                    ><i class="material-icons">grade</i></a
-                  >
-                </li>
-                <li class="collection-item avatar">
-                  <i class="material-icons circle red">play_arrow</i>
-                  <span class="title-four"></span>
-                  <p id="location-four"></p>
-                  <p id="venue-four"></p>
-                  <a href="#!" class="secondary-content"
-                    ><i class="material-icons">grade</i></a
-                  >
-                </li>
-              </ul>
+              <h5 class="center"></h5>
+
+              <div class="collection">
+                <div id="artist" href="#!" class="collection-item"></div>
+                <div id="venue" href="#!" class="collection-item"></div>
+                <div id="location" href="#!" class="collection-item"></div>
+              </div>
+
             </div>
           </div>
         </div>
@@ -146,11 +113,8 @@
     <div class="parallax-container valign-wrapper">
       <div class="section no-pad-bot">
         <div class="container">
-          <div class="row center">
-            <h5 class="header col s12 black-text">
-              Follow us on social media so that you don't have to miss another
-              show.
-            </h5>
+          <div class="row">
+
           </div>
         </div>
       </div>
@@ -164,22 +128,15 @@
 
     <div class="container">
       <div class="section">
-        <div class="row">
-          <div class="col s12 center">
-            <h3><i class="mdi-content-send black-text"></i></h3>
-            <h4>Contact Us</h4>
-            <p class="left-align light">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-              scelerisque id nunc nec volutpat. Etiam pellentesque tristique
-              arcu, non consequat magna fermentum ac. Cras ut ultricies eros.
-              Maecenas eros justo, ullamcorper a sapien id, viverra ultrices
-              eros. Morbi sem neque, posuere et pretium eget, bibendum
-              sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis
-              nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa
-              odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget
-              dignissim mauris, non tristique erat. Vestibulum ante ipsum primis
-              in faucibus orci luctus et ultrices posuere cubilia Curae;
-            </p>
+        <div class="row"> 
+          <div class="col s4">
+            <img class="responsive-img" src="https://images.pexels.com/photos/196652/pexels-photo-196652.jpeg?cs=srgb&dl=crowd-in-front-of-people-playing-musical-instrument-during-196652.jpg&fm=jpg" alt="concert img"/>
+          </div>
+          <div class="col s4">
+            <img class="responsive-img" src="https://images.pexels.com/photos/811838/pexels-photo-811838.jpeg?cs=srgb&dl=man-playing-guitar-811838.jpg&fm=jpg" alt="concert img"/>
+          </div>
+          <div class="col s4">
+            <img class="responsive-img" src="https://images.pexels.com/photos/1677710/pexels-photo-1677710.jpeg?cs=srgb&dl=silhouette-of-dancing-people-inside-club-1677710.jpg&fm=jpg" alt="concert img"/>
           </div>
         </div>
       </div>
@@ -189,8 +146,8 @@
       <div class="section no-pad-bot">
         <div class="container">
           <div class="row center">
-            <h5 class="header col s12 light">
-              A modern responsive front-end framework based on Material Design
+            <h5 class="header col s12 light" id="social">
+              Follow us on social media so you don't miss another epic show!
             </h5>
           </div>
         </div>
@@ -207,29 +164,18 @@
       <div class="container">
         <div class="row">
           <div class="col l6 s12">
-            <h5 class="white-text">Company Bio</h5>
-            <p class="grey-text text-lighten-4">
-              We are a team of college students working on this project like
-              it's our full time job. Any amount would help support and continue
-              development on this project and is greatly appreciated.
+            <h4 class="white-text">About Us</h4>
+            <p id=aboutUs class="grey-text text-lighten-2">
+              We are a team of students from the University of Kansas Coding Bootcamp.  This site is our first completed group project.  Check out more of our work in the Connect section.
             </p>
           </div>
-          <div class="col l3 s12">
-            <h5 class="white-text">Settings</h5>
-            <ul>
-              <li><a class="white-text" href="#!">Link 1</a></li>
-              <li><a class="white-text" href="#!">Link 2</a></li>
-              <li><a class="white-text" href="#!">Link 3</a></li>
-              <li><a class="white-text" href="#!">Link 4</a></li>
-            </ul>
-          </div>
+
+
           <div class="col l3 s12">
             <h5 class="white-text">Connect</h5>
             <ul>
-              <li><a class="white-text" href="#!">Link 1</a></li>
-              <li><a class="white-text" href="#!">Link 2</a></li>
-              <li><a class="white-text" href="#!">Link 3</a></li>
-              <li><a class="white-text" href="#!">Link 4</a></li>
+              <li><a class="blue-text" href="https://github.com/jeremykstone0911/Project1">GitHub</a></li>
+
             </ul>
           </div>
         </div>
@@ -246,6 +192,7 @@
 
     <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/js/materialize.min.js"></script>
     <script src="assets/js/init.js"></script>
     <script src="assets/js/materialize.js"></script>
@@ -255,5 +202,7 @@
       type="text/javascript"
       src="http://api.eventful.com/js/api"
     ></script>
+    
+
   </body>
 </html>
