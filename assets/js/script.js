@@ -10,7 +10,7 @@ $(document).ready(function () {
 
 
     $.ajax({
-      url: "http://api.eventful.com/json/events/search?app_key=B3cccB54Cfm7csbL&category=music&location=United+States&page_size=4&date=" + formattedDate,
+      url: "http://api.eventful.com/json/events/search?app_key=B3cccB54Cfm7csbL&category=music&location=United+States&page_size=1&date=" + formattedDate,
       type: "GET",
       dataType: "jsonp",
 
@@ -20,18 +20,18 @@ $(document).ready(function () {
       var display = displayEventInfo(response);
       $(".collection").html(display);
 
+        console.log(response.events.event.title);
+        console.log(response.events.event.city_name);
+        console.log(response.events.event.venue_name);
+
       },
     });
 
     function displayEventInfo(response) {
 
-    var artist = $("#artist").html(response.events.event.title);
-    $("#location").html("Venue: " + response.events.event.venue_name);
-    $("#venue").html("Location: " + response.events.event.city_name + response.events.event.region_name);
-
-    console.log(artist);
-    console.log("Location: " + response.events.event.city_name + response.events.event.region_name);
-    console.log("Venue: " + response.events.event.venue_name);
+    $("#artist").html("Artist/Event Title: " + response.events.event.title);
+    $("#venue").html("Venue: " + response.events.event.venue_name);
+    $("#location").html("Location: " + response.events.event.city_name);
  
     }
 
