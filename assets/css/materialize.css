@@ -8996,11 +8996,11 @@ input[type="range"]::-ms-thumb {
 }
 
 .datepicker-table td.is-today {
-  color: #d7ccc8;
+  color: white;
 }
 
 .datepicker-table td.is-selected {
-  background-color: #d7ccc8;
+  background-color: rgba(172, 116, 95, 0.187);
   color: black;
 }
 
