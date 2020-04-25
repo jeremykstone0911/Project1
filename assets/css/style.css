@@ -26,6 +26,10 @@ h5 {
   font-family: 'Shadows Into Light', cursive;
 }
 
+.collection-item {
+  color: black
+}
+
 #social {
   color: black;
   font-weight: 600;
