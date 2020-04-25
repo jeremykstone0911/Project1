@@ -62,18 +62,10 @@ $(document).ready(function () {
       },
     });
   });
-});
 
-WebFont.load({
-  google: {
-    families: ["shadowsIntoLight"],
-  },
-});
-
-WebFontConfig = {
-  google: {
-    families: ["shadowsIntoLight"],
-  },
-  timeout: 2000, // Set the timeout to two seconds
-};
+  WebFont.load({
+    google: {
+      families: ["shadowsIntoLight"],
+    },
+  });
 

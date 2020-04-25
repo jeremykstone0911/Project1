@@ -13,7 +13,7 @@ nav .brand-logo {
 
 p {
   line-height: 50px;
-  font-family: "ShadowsIntoLight";
+  font-family: "ShadowsIntoLight", sans-serif;
   font-size: 25px;
 }
 
@@ -62,7 +62,7 @@ footer.page-footer {
   background: rgba(255, 127, 80, 0.023);
 }
 .datepicker-calendar-container {
-  color: gray;
+  color: rgba(146, 103, 9, 0);
 }
 .is-today {
   color: rgba(255, 127, 80, 0.023) !important;
@@ -72,11 +72,11 @@ footer.page-footer {
 }
 .datepicker-cancel,
 .datepicker-done {
-  color: silver;
+  color: rgb(47, 47, 65);
 }
 .pickYourDay {
   line-height: 5rem;
-  font-family: "ShadowsIntoLight";
+  font-family: "ShadowsIntoLight", sans-serif;
   font-size: 26px;
 }
 
