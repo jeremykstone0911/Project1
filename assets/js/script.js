@@ -8,6 +8,7 @@ $(document).ready(function () {
 
     console.log(formattedDate);
 
+
     $.ajax({
       url:
         "https://api.eventful.com/json/events/search?app_key=B3cccB54Cfm7csbL&category=music&include=popularity&location=United+States&page_size=4&date=" +
@@ -75,3 +76,4 @@ WebFontConfig = {
   },
   timeout: 2000, // Set the timeout to two seconds
 };
+
