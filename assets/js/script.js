@@ -2,7 +2,7 @@ $(document).ready(function () {
   $(".datepicker").datepicker();
 
   $("#search-button").on("click", function () {
-    var userDate = $("#date").val();
+    var userDate = $("#date").val()
 
     var formattedDate = moment(userDate).format("YYYY-MM-DD");
 
