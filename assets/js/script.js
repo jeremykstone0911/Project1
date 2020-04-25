@@ -20,18 +20,18 @@ $(document).ready(function () {
       var display = displayEventInfo(response);
       $(".collection").html(display);
 
-        console.log(response.events.event.title);
-        console.log(response.events.event.city_name);
-        console.log(response.events.event.venue_name);
+        console.log(response.events.event[0].title);
+        console.log(response.events.event[0].city_name);
+        console.log(response.events.event[0].venue_name);
 
       },
     });
 
     function displayEventInfo(response) {
 
-    $("#artist").html("Artist/Event Title: " + response.events.event.title);
-    $("#venue").html("Venue: " + response.events.event.venue_name);
-    $("#location").html("Location: " + response.events.event.city_name);
+    $("#artist").html("Artist/Event Title: " + response.events.event[0].title);
+    $("#venue").html("Venue: " + response.events.event[0].venue_name);
+    $("#location").html("Location: " + response.events.event[0].city_name);
  
     }
 
