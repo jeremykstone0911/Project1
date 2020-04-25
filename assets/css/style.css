@@ -13,7 +13,7 @@ nav .brand-logo {
 
 p {
   line-height: 50px;
-  font-family: "ShadowsIntoLight", sans-serif;
+  font-family: 'Shadows Into Light', cursive;
   font-size: 25px;
 }
 
@@ -74,11 +74,7 @@ footer.page-footer {
 .datepicker-done {
   color: rgb(47, 47, 65);
 }
-.pickYourDay {
-  line-height: 5rem;
-  font-family: "ShadowsIntoLight", sans-serif;
-  font-size: 26px;
-}
+
 
 .bold {
   font-weight: bold;
