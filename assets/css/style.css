@@ -16,6 +16,21 @@ p {
   font-family: 'Shadows Into Light', cursive;
   font-size: 25px;
 }
+h4 {
+  font-size: 45px;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+h5 {
+  font-size: 40px;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+#social {
+  color: black;
+  font-weight: 600;
+  font-size: 40px;
+}
 
 .sidenav-trigger {
   color: #090500;
