@@ -10,7 +10,7 @@ $(document).ready(function () {
 
 
     $.ajax({
-      url: "http://api.eventful.com/json/events/search?app_key=B3cccB54Cfm7csbL&category=music&location=United+States&page_size=1&date=" + formattedDate,
+      url: "https://api.eventful.com/json/events/search?app_key=B3cccB54Cfm7csbL&category=music&location=United+States&page_size=1&date=" + formattedDate,
       type: "GET",
       dataType: "jsonp",
 
